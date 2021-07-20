@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>BOOTSTRAP</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!--icon-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+
+  <body>
+    
+    <!-- NAVBAR CODE -->
+    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+
+    <!-- LOGO -->
+    <a class="navbar-brand" href="index.html">
+    <img src="image/function-of-beauty.png" style="width: 200px;">
+  </a>
+
+  <!-- MARGIN -->
+  <ul class="navbar-nav ml-auto">
+
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">HOME</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="aboutus.html">ABOUT US</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="products.html">GALLERY</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="contact.html">CONTACT</a>
+    </li>
+<!-- SEARCH -->
+<form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button type="button" class="btn btn-outline-dark">Search</button>
+  </form>
+</nav>
+
+<!--CAROUSEL CODE-->
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+<!--CAROUSEL 1-->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/fob11.jpg" width="1500">
+      <div class="carousel-caption">
+        <h1>Leader in customizable beauty</h1>
+        <p>100% custom hair, skin and body care</p>
+      </div>   
+    </div>
+
+<!--CAROUSEL 2-->
+    <div class="carousel-item">
+      <img src="image/fob22.jpg" width="1500">
+      <div class="carousel-caption">
+        <h1 style="color: darkcyan;">Take the hair quiz</h1>
+        <p style="color: darkcyan;">Or take the skin quiz</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="image/fob33.jpg" width="1500">
+
+<!--CAROUSEL 3-->
+      <div class="carousel-caption">
+        <h1 style="color: cornflowerblue;">Function with benefits</h1>
+        <p style="color: cornflowerblue;">Become a FWB</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<!--NEW SECTION-->
+<!--About Us-->
+<section>
+  <br> <br>
+  <h1 class="text-info"style="text-align: center; padding-top: 20px;">ABOUT US</h1>
+    <br> <br>
+<div class="container">   <!--container tag-->
+  <div class="row">
+  <div class="column">
+   <img src="image/fob4.jpg" style="width:600px;padding-right: 80px;">
+  </div>
+  <div class="column">
+    <h2 class="display-4" style="padding-bottom: 20px;">function of <br>difference</h2>
+    <p class="text-dark"style="padding-bottom: 30px;">As a company, we strive to be clean, ethical, and sustainable in <br>everything that we do. We may not always be perfect, but we<br> are committed to constant improvement and are always up for <br>a challenge.</p>
+    <button type="button" class="btn btn-outline-info">Learn more</button>
+  </div>
+</div>
+    
+  <div class="row">
+  <div class="column" style="padding-top: 120px;">
+    <h2 class="display-4" style="padding-bottom: 20px;">we clean up <br>good</h2>
+    <p class="text-dark"style="padding-bottom:30px; padding-right: 200px;">To be an ingredient in a Function of Beauty bottle, you'd<br> have to make it past European Union safe cosmetics<br> regulations and 26 checklist items, pass review in<br> formulation with other ingredients,help achieve results for<br> someone's unique hair/skin/body care needs, be 100%<br> vegan, cruelty-free, and as often as we can help it, be<br> responsibly sourced.<br>Whew – that's a lot of roadblocks.</p>
+    <button type="button" class="btn btn-outline-info">Learn more</button>
+  </div>
+  <div class="column">
+   <img src="image/fob5.jpg" style="width:500px;padding-top: 100px; padding-bottom: 60px;">
+  </div>
+
+</div>
+
+  </div>
+
+</section>
+
+<section>
+  <style>
+.footer {
+   position: sticky;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: skyblue;
+   color: white;
+   text-align: center;
+   padding: 20px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: transparent;
+  color: white;
+}
+
+.fa-twitter {
+  background: transparent;
+  color: white;
+}
+
+.fa-instagram {
+  background: transparent;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="footer">
+  <p>© function of beauty 2021</p>
+
+  <!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+</div>
+
+</section>
+
+  </body>
+
+</html>
